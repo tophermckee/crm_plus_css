@@ -296,7 +296,7 @@ div.sub_nav_bar{
 }
 
 .ui-widget{
-    font-size: 13px !important;
+    font-size: 13px !important; /*now?*/
 }
 
 #top_apps{ display: block !important;}
