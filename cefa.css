@@ -5,7 +5,7 @@ body {
     font-size: 13px !important;
 }
 /** Remove Features **/
-#topLeftLogo, #collaborateIcon, #groups_nav_link, #settings_nav, #top_command_center, #top_my_account {
+#collaborateIcon, #groups_nav_link, #settings_nav, #top_command_center, #top_my_account {
     display: none !important;
 }
 
@@ -257,21 +257,6 @@ div.sub_nav_bar{
 .dashboard2_LeftBox{
     display: none;
 }
-
-/*#contactCRM .flex-right .rightpane-card
-{
-    display: none !important;
-}
-
-#contactCRM .flex-right div:nth-child(1)
-{
-    display: block !important;
-}
-
-#contactCRM .main-flex-nav ul li:nth-child(3),
-#contactCRM .main-flex-nav ul li:nth-child(4){
-    display: none !important;
-}*/
 
 #dlgContactView #ContactTabs .ui-tabs-nav li:nth-child(5),
 #dlgContactView #ContactTabs .ui-tabs-nav li:nth-child(6),
