@@ -1,0 +1,297 @@
+/** Kindertales app.CSS **/
+body {
+    font-family: 'Roboto', sans-serif !important;
+    background: #EAF1F8 !important;
+    font-size: 13px !important;
+}
+/** Remove Features **/
+#topLeftLogo, #collaborateIcon, #groups_nav_link, #top_help, #settings_nav, #top_help_center, #top_command_center, #top_my_account {
+    display: none !important;
+}
+
+.main_nav div a:hover{
+    box-shadow: none !important;
+}
+
+/** Color Changes **/
+#main{
+    background: #EAF1F8 !important;
+    padding: 25px 10px 25px 25px !important;
+}
+
+.nav_bar {
+    background: #88b73e !important;
+    padding-bottom: 0px !important;
+    padding-left: 40px !important
+}
+.main_nav li a {
+    color: #fff !important;
+    font-size: 15px !important;
+    padding: 10px 10px !important;
+}
+#top_home.on, #top_contacts.on, #top_communicate.on, #top_media.on, #top_website.on, #top_automation.on, #top_calendar.on, #top_apps.on, #top_help.on, #settings_nav.on {
+    /* border-bottom: 3px solid #7aa438 !important; */
+    color: #fff !important;
+}
+#top_home.on:before, #top_contacts.on:before, #top_communicate.on:before, #top_media.on:before, #top_website.on:before, #top_automation.on:before, #top_calendar.on:before, #top_apps.on:before, #top_help.on:before, #settings_nav.on:before {
+    color: #666666 !important;
+}
+#team_nav_select li a, #seas_nav_select li a {
+    color: #666666 !important;
+}
+#team_nav_select, #seas_nav_select {
+    background-color: #ecf0f5 !important;
+}
+.main_nav div {
+    background: #88b73e !important;
+    border-radius: 0;
+}
+
+.main_nav li a:hover{
+    border-color: #a0c565 !important;
+    background: #a0c565 !important;
+    color: #fff !important;
+}
+
+.topNavBig.on  /*,.flex-active-link, .main-flex-nav li a:hover, .ui-tabs .ui-tabs-nav li.ui-tabs-active, .ui-tabs .ui-tabs-nav li:hover, .media-library-media-list-header*/ {
+    border-color: #7aa438 !important;
+    background: #7aa438 !important;
+    color: #fff !important;
+}
+
+.main_nav div a:hover/*, #team_nav_select div a:hover, #seas_nav_select div a:hover */{
+    background: #a0c565 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+.main_nav li:hover #top_home:before, .main_nav li:hover #top_contacts:before, .main_nav li:hover #top_contacts:before, .main_nav li:hover #top_communicate:before, .main_nav li:hover #top_media:before, .main_nav li:hover #top_website:before, .main_nav li:hover #top_automation:before, .main_nav li:hover #top_calendar:before, .main_nav li:hover #top_apps:before, .main_nav li:hover #top_help:before, .main_nav li:hover #top_settings:before {
+    color: #fff !important;
+    background: white;
+}
+#team_nav_select .topNavDropdown, .flyouts a {
+    background: white !important;
+}
+/** Custom Styles **/   
+/* .main_nav div:hover{
+    background: #fff !important;
+    border-bottom: 0px solid #fff !important;
+}
+.main_nav div a:hover{
+    color: #2998cf !important;  
+    border-bottom: 0px solid #fff !important;
+} */
+
+div.sub_nav_bar{
+    height: 0px !important;
+}
+
+#team_nav_select{
+    float: none !important;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.dashboard2_LeftBox, .userFieldCluster, .visibleWidget2 {
+    border-radius: 0px!important;
+}
+
+#dashboardLeftWrapper{
+    background: #EAF1F8;
+    margin: 0 !important;
+    padding: 20px 20px 150px 20px;
+    height: 100vh;
+}
+
+#dashboardRightWrapper{
+    margin-top: 0 !important;
+    padding: 20px 0 150px 0;
+    background: #EAF1F8;
+    height: 100vh;
+}
+
+#dashboardCustomizePrint{
+    background: #EAF1F8;
+    padding: 20px 0 !important; 
+}
+
+#miniMiniCal{
+    padding: 12px 0 0 12px;
+}
+
+#dashboardEmailSendHistoryLoader{
+    padding: 7.5px;
+}
+
+/** Home/Extended dashboard styles **/
+#dashboardLeftColumn{
+    background-color: #EAF1F8 !important;
+}
+
+#dashboardRightColumn{
+    background-color: #EAF1F8 !important;
+}
+
+.dashboardSubtitle{
+    background-color: white !important;
+    margin: 0px !important;
+    padding-left: 0px !important;
+}
+
+/* #main p{
+    background-color: #EAF1F8;
+    margin: 0px !important;
+    padding-left: 20px;
+} */
+
+#dashboardNotifications{
+    background-color: #fff;
+    padding: 0px 10px 30px 10px;
+}
+
+#badgesWrapper{
+    background-color: #fff;
+}
+
+#dashboardYourTeam h1{
+    margin-left: 10px;
+}
+
+/** Contacts/view styles **/
+#contactTabBar{
+    position: relative;
+    top: 10px;
+    margin: 20px;
+}
+
+#Contacts{
+    background: #EAF1F8;
+}
+
+#title_Contacts{
+    display: none
+}
+
+#MediaLibraryConfirmationDialog{
+    background: #EAF1F8 !important;
+}
+
+/** Contacts/visibility styles **/
+#visibilityOuterWrapper{
+    background: #EAF1F8;
+    margin: 30px 0px;
+    padding: 25px;
+}
+
+/** Contacts/reports styles **/
+#reportsWrapper{
+    background: #EAF1F8;
+    margin-top: -30px;
+    margin-right: 50px;
+}
+
+#title_Reports{
+    background: #EAF1F8;    
+}
+
+#reportsWrapper .main-flex-nav{
+    position: relative;
+    margin: 0px
+}
+
+#reportsWrapper .mainbox-content{
+    margin: 0;
+    padding: 15px;
+    box-shadow: none;
+    border: 0;
+}
+
+#reports-panel p{
+    margin-top: 50px;
+}
+
+#title_Reports .help_icon{
+    display: none;
+}
+
+#opportunities-panel span{
+    right: 10%;
+}
+
+/** Automation/workflow styles **/
+#workflowManagerWrapper{
+    padding: 20px;
+}
+
+#workflowManagerActionButtons{
+    top: 150px !important;
+    right: 50px;
+}
+
+#workflowManagerWrapper td{
+    padding-top: 20px;
+}
+
+/** Hiding/Showing Certain Dropdown Tabs **/
+#top_link_library, #top_automation_manager, #top_sms, #top_email, #top_campaign_optimizer, #top_collaborate,  #top_visibility, #top_reports, .help_icon_show, .help_icon_small, .help_icon, .help_icon_small_show, #reputationAndUsers, #top_asset_library{
+    display: none !important;
+}
+
+#m4 a:nth-child(1), #m4 a:nth-child(2), #m4 a:nth-child(4){
+    display: none !important;
+}
+
+#m4 a:nth-child(5){
+    display: block !important;
+}
+
+#top_media, #top_media_library, #top_email_easybuilder, #dashboardNewsFeedWrapper, #dashboardNewsFeed, #dashboardRecentActions{
+    display: block !important;
+}
+
+.dashboard2_LeftBox{
+    display: none;
+}
+
+/*#contactCRM .flex-right .rightpane-card
+{
+    display: none !important;
+}
+
+#contactCRM .flex-right div:nth-child(1)
+{
+    display: block !important;
+}
+
+#contactCRM .main-flex-nav ul li:nth-child(3),
+#contactCRM .main-flex-nav ul li:nth-child(4){
+    display: none !important;
+}*/
+
+#dlgContactView #ContactTabs .ui-tabs-nav li:nth-child(5),
+#dlgContactView #ContactTabs .ui-tabs-nav li:nth-child(6),
+#dlgContactView #ContactTabs .ui-tabs-nav li:nth-child(8){
+    display: none !important;
+}
+
+#revenueBlock{
+    display: none !important;
+}
+#newContactButton{
+    display: none !important;
+}
+#listContactsButtonsWrapper{
+    top: 100px !important;
+ }
+
+#accountSettings td, #acknowledgeDialog, #assetLibrariesNav, #confirmDialog p, #dripCampaignsWrapper, #editWorkflowForm td, #emailCampaignOptimizer, #secondaryCompanies li, #surveySequenceDetails, #ticketFormsList, #workflowFoldersContainer, .contactsRowName, .displayOpportunityField, .helpWidget dd, .helpWidget dt, .notificationPopup strong, .publicEventRow td{
+
+    font-size: 13px !important;
+}
+.ui-widget{
+    font-size: 13px !important;
+}
+#top_apps{ display: block !important;}
+#top_email_tracking{ display: block !important}
+#top_ticketing{ display: block !important;}
+#top_coupons, #top_customObjects, #top_learning, #top_orgchart, #top_projects, #top_wiki { display: none !important;}
