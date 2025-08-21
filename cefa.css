@@ -5,7 +5,7 @@ body {
     font-size: 13px !important;
 }
 /** Remove Features **/
-#topLeftLogo, #collaborateIcon, #groups_nav_link, #top_help, #settings_nav, #top_help_center, #top_command_center, #top_my_account {
+#topLeftLogo, #collaborateIcon, #groups_nav_link, #settings_nav, #top_command_center, #top_my_account {
     display: none !important;
 }
 
@@ -64,10 +64,15 @@ body {
     color: #fff !important;
     box-shadow: none !important;
 }
+
+/* change color to white and background to white */
+
 .main_nav li:hover #top_home:before, .main_nav li:hover #top_contacts:before, .main_nav li:hover #top_contacts:before, .main_nav li:hover #top_communicate:before, .main_nav li:hover #top_media:before, .main_nav li:hover #top_website:before, .main_nav li:hover #top_automation:before, .main_nav li:hover #top_calendar:before, .main_nav li:hover #top_apps:before, .main_nav li:hover #top_help:before, .main_nav li:hover #top_settings:before {
     color: #fff !important;
     background: white;
 }
+
+
 #team_nav_select .topNavDropdown, .flyouts a {
     background: white !important;
 }
@@ -232,8 +237,8 @@ div.sub_nav_bar{
     padding-top: 20px;
 }
 
-/** Hiding/Showing Certain Dropdown Tabs **/
-#top_link_library, #top_automation_manager, #top_sms, #top_email, #top_campaign_optimizer, #top_collaborate,  #top_visibility, #top_reports, .help_icon_show, .help_icon_small, .help_icon, .help_icon_small_show, #reputationAndUsers, #top_asset_library{
+/** Hiding Certain Dropdown Tabs **/
+#top_link_library, #top_automation_manager, #top_sms, #top_email, #top_campaign_optimizer, #top_collaborate,  #top_visibility, #top_reports, #reputationAndUsers, #top_asset_library{
     display: none !important;
 }
 
@@ -284,13 +289,16 @@ div.sub_nav_bar{
     top: 100px !important;
  }
 
-#accountSettings td, #acknowledgeDialog, #assetLibrariesNav, #confirmDialog p, #dripCampaignsWrapper, #editWorkflowForm td, #emailCampaignOptimizer, #secondaryCompanies li, #surveySequenceDetails, #ticketFormsList, #workflowFoldersContainer, .contactsRowName, .displayOpportunityField, .helpWidget dd, .helpWidget dt, .notificationPopup strong, .publicEventRow td{
+/* setting font size */
 
+#accountSettings td, #acknowledgeDialog, #assetLibrariesNav, #confirmDialog p, #dripCampaignsWrapper, #editWorkflowForm td, #emailCampaignOptimizer, #secondaryCompanies li, #surveySequenceDetails, #ticketFormsList, #workflowFoldersContainer, .contactsRowName, .displayOpportunityField, .notificationPopup strong, .publicEventRow td{
     font-size: 13px !important;
 }
+
 .ui-widget{
     font-size: 13px !important;
 }
+
 #top_apps{ display: block !important;}
 #top_email_tracking{ display: block !important}
 #top_ticketing{ display: block !important;}
