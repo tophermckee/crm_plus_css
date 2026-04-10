@@ -1,7 +1,14 @@
+/* Hides the map on the kanban board */
 a[title="Open a map of all leads in this location"] {
     display: none
 }
 
+/* hides the Revenue / Conversions block on the Contact > Activities page */
 #overview-panel #revenueBlock {
+    display: none
+}
+
+/* hides the + Conversion button on the Contact > Activities page */
+div.main-flex-nav ul li[onclick*='conversion'] {
     display: none
 }
